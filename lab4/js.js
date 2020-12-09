@@ -14,7 +14,7 @@ window.onload = function() {
 			else {
 				event.target.innerHTML = '0';
 			}
-			hod++;
+			hod--;
 			checkWinner();
 		}
 	}
