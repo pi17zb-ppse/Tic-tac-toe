@@ -1,3 +1,15 @@
+/**
+ * Работа с условием выиграша
+ * 
+ * Собираем все элемменты блоков в одну переменную 
+ * 
+ * @param {checkWinner} checkWinner - функция
+ * @returns {allblock} - массив
+ * @example
+ * 
+ * function checkWinner(){
+ * // => var allblock = document.getElementsByClassName('block');
+ */
 window.onload = function() {
 	for (var i=0; i<9; i++) {
 	    document.getElementById('game').innerHTML+='<div class="block"></div>';
